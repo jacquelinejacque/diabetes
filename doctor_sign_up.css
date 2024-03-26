@@ -1,0 +1,124 @@
+body {
+    background: hsl(249, 63%, 65%);
+    /* color: #333333; */
+    /* margin-top: 5rem; */
+}
+
+nav {
+    align-self: start;
+    margin-left: 10px;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 15px;
+    
+   
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    /* margin: 70px; */
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    /* padding-top: 0px; */
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: #7F6FDE;;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 14px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav ul li:hover ul {
+    display: inline-block;
+}
+
+.doctor {
+    font-size: large;
+}
+form {
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 400px;
+    padding: 2px;
+    margin-right: 0px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #7F6FDE;
+    /* border-color: black; */
+}
+form input {
+    border-color: #7F6FDE;
+    height: 30px;
+    width: 200px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    background-color: #7F6FDE;
+    color: #fff;
+    margin: 20px;
+    border: black;
+    
+}
+#error {
+    color: #FF3860;
+}
+.Icon {
+    height: 100px;
+    width: 100px;
+}
+h1{
+    color: #ffffff;
+    font-size: small;
+    margin-top: 5px;
+    margin-left: 400px;
+}
+.check {
+    font-size: x-small;
+    margin: 0px;
+    padding: 0px;
+}
+
+.quer {
+    font-size: x-small;
+}
+.mb-3.success input {
+    border-color: #7F6FDE;
+}
+.mb-3.error input {
+    border-color: #FF3860;
+}

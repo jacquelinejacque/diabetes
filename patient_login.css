@@ -1,0 +1,118 @@
+body {
+    background: #7F6FDE;
+    /* color: #333333; */
+    /* margin-top: 5rem; */
+}
+nav {
+    align-self: start;
+    margin-left: 10px;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    /* margin: 70px; */
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    /* padding-top: 0px; */
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: #7F6FDE;
+    ;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 14px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav ul li:hover ul {
+    display: inline-block;
+}
+
+form {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* float: right; */
+    margin-top: 10px;
+    padding: 2px;
+    margin-left: 400px;
+    margin-right: 200px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: black;
+}
+#error {
+    color: #FF3860;
+}
+input {
+    margin-left: 2px;
+
+}
+
+button {
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    background-color: #7F6FDE;
+    color: #fff;
+    margin: 20px;
+    border: black;
+    text-transform: uppercase;
+
+}
+
+.Icon {
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: small;
+    float: left;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.check {
+    font-size: x-small;
+}
+
+.quer {
+    font-size: x-small;
+}
+
+.DoctorsLogin {
+    font-size: medium;
+    align-content: center;
+    color: #7F6FDE;
+}

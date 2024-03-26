@@ -1,0 +1,103 @@
+body {
+    background: #7F6FDE;
+    /* color: #333333; */
+    /* margin-top: 5rem; */
+}
+
+nav {
+    align-self: start;
+    margin-left: 10px;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    /* margin: 70px; */
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    /* padding-top: 0px; */
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: #7F6FDE;
+    ;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 14px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav ul li:hover ul {
+    display: inline-block;
+}
+
+form {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #7F6FDE;
+    /* float: right; */
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 200px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: black;
+}
+.Icon{
+    height: 100px;
+    width: 100px;
+}
+
+.inputEmail {
+    color: #7F6FDE;
+    text-transform: uppercase;
+    font-size: small;
+}
+.message{
+    color: #7F6FDE;
+    /* align-content: center; */
+    font-size: x-small;
+}
+.spam{
+    color: white;
+    font-size: large;
+    margin-left: 400px;
+}
+button {
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    background-color: #7F6FDE;
+    color: #fff;
+    margin: 20px;
+    border: black;
+    text-transform: uppercase;
+
+}

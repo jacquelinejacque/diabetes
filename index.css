@@ -1,0 +1,25 @@
+body {
+    background: #80bdff;
+    /* color: #333333; */
+    /* margin-top: 5rem; */
+}
+img { 
+    border-radius: 50%; 
+    margin-left: 10px;  
+    margin-top: 20px;
+    border-radius: 15px;
+    float: left; 
+    height: 400px;
+    width: 450px;
+} 
+.welcome {
+    float: right;
+    margin-top: 10px;
+    color: white;
+    font-size: larger;
+}
+
+ul {
+    margin: 0;
+}
+

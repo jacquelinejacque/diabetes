@@ -1,0 +1,116 @@
+body {
+    background: hsl(249, 63%, 65%);
+    /* color: #333333; */
+    /* margin-top: 5rem; */
+}
+nav {
+    align-self: start;
+    margin-left: 10px;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    /* margin: 70px; */
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    /* padding-top: 0px; */
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: #7F6FDE;
+    ;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 14px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav ul li:hover ul {
+    display: inline-block;
+}
+
+.form{
+    align-items: center;
+}
+form {
+    width: 550px;
+    height: 670px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 2px;
+    margin-left: 400px;
+    margin-right: 200px;
+    border-radius: 15px;
+    color: #7F6FDE;
+    box-sizing: border-box;
+    border: black;
+}
+#error {
+    color: #FF3860;
+}
+
+
+.check{
+    font-size: x-small;
+
+}
+input {
+    height: 2rem;
+    border: none;
+    border-bottom:1px solid green;
+
+}
+
+button {
+    border-radius: 20px;
+    height: 30px;
+    width: 70px;
+    background-color: #7F6FDE;
+    color: #fff;
+    margin: 20px;
+    border: black;
+    
+}
+.Icon {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    align-items: center;
+}
+h1{
+    color: #ffffff;
+    font-size: small;
+    float: left;
+    margin-top: 183px;
+}
+#patientSignUp{
+    color: #7F6FDE;
+    font-size: larger;
+}
